@@ -1,0 +1,12 @@
+<html>
+<head>
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
+    <tittle> My Blog</tittle>
+</head>
+    <body>
+        <h1>Kia ora Taiao! (Hello World)</h1>
+        <p> This is the beginning of my website home page.</p>
+        <p> It will eventually contain a list of links to all me blogs.</p>
+        <l1><a href="template.html">Page 1</a></l1>
+    </body>
+</html>
