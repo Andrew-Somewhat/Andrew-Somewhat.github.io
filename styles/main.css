@@ -7,6 +7,7 @@ body {
    font-family: fantasy;
    text-align: center;
    font-size: large;
+   position: relative;
 }
 
 .para3{
@@ -16,6 +17,29 @@ body {
    padding: auto;
  
 }
+
+.flex {
+  justify-content: start;
+  display: inline;
+  float: left;
+  text-align: center;
+
+}
+.par2 {
+  
+  font-size: 30px;
+  float: right;
+  text-align: center;
+  
+}
+.par {
+  font-size: 30px;
+}
+.img {
+  text-align:left;
+  border: rgb(31, 29, 29);
+}
+
 .topnav {
    overflow: hidden;
    background-color: #333;
