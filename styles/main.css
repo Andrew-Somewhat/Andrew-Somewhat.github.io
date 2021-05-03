@@ -19,6 +19,15 @@ body {
  
 }
 
+.para9 {
+  color: #2936f1;
+  text-align: center;
+   position: relative;top: 100px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   padding: auto;
+   font-size: 20px;
+}
+
 .flex {
   justify-content: start;
   display: inline;
