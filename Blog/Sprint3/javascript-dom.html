@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head><title>JS and DOM</title>
+        <link href="../../styles/main.css" rel="stylesheet" type="text/css">
+        <div class="topnav">
+            <a href="../../index.html">Home</a>
+            <a href="../../Crossroads.html">Rest Stop</a>
+            <div class="dropdown">
+                <button class="dropbtn">Blog Stuff
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="drop-content">
+                    <a href="../Sprint1/reflect1.html">Sprint1 Reflect!</a>
+                    <a href="../Sprint2/sprt2.html">Sprint2 Positioning!</a>
+                    <a href="../Sprint2/lplan.html">Learning Plan!</a>
+                    <a href="eq-iq.html">The Q's</a>
+                    <a href="javascript-dom.html">JS n DOM</a>
+                    <a href="#">Place Holder</a>
+                    <a href="#">Place Holder</a>
+                </div>
+            </div>
+        </div>
+    </head>
+    <body>
+        <div class="header1"><h1>HTML VS CSS!</h1></div>
+        <div class="img2" img></div>
+        <div class="lofi"><p>An analogy for the difference:</p>
+            <div class="contii"><img src="../../styles/images/left-br.jpg" alt="get" width="300" height="3s00">
+            <img src="../../styles/images/do-it-myself.jpg" alt="get" width="300" height="300"></div>
+            <p>HTML is the logical left half of your brain and CSS is the creative right half of your brain.
+            </p></div>
+            <img src="../../styles/images/DOM.png" alt="get" width="400" height="400">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">;-;</button>
+        <script>
+            
+            var mybutton = document.getElementById("myBtn");
+            
+           
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+
+            </script>
+    </body>
+</html>

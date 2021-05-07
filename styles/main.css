@@ -46,6 +46,12 @@ body {
   font-size: 30px;
 }
 
+.contii {
+ text-align: center;
+}
+
+
+
 .lofi {
   text-align: center;
   font-size: 20px;
@@ -192,5 +198,5 @@ body {
 #myBtn:hover {
   background-color: rgb(42, 6, 248);
 }
- 
+
 
