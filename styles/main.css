@@ -10,6 +10,13 @@ body {
    position: relative;
 }
 
+.header2 {
+  font-family: fantasy;
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+}
+
 .para3{
    text-align: center;
    position: relative;top: 100px;
@@ -106,6 +113,12 @@ body {
 .img2 {
   text-align: center;
 }
+
+.img3 {
+  text-align: center;
+}
+
+
 
 .poto {
   position: relative;
