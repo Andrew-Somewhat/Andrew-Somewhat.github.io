@@ -1,4 +1,10 @@
-body {
+@media only screen and (max-width: 600px) {
+  body{
+   color: #2bf8ea;
+  font-size: medium;}  
+}
+  
+  body {
    background-color: #0b0c10 ;
    color: #66fcf1 ;
    
