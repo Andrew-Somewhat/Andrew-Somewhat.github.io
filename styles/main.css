@@ -1,7 +1,75 @@
-@media only screen and (max-width: 600px) {
-  body{
-   color: #2bf8ea;
-  font-size: medium;}  
+@media only screen and (min-width: 320px) {
+  .header1,.header2{
+    font-family: fantasy;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+  }
+  .par,.par2,.para3,.para9{
+    text-align: center;
+    position: relative;top: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: auto;
+    font-size: 15px;
+  }
+  .lofi,.midfi,.hifi{
+    text-align: center;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .header1,.header2{
+    font-family: fantasy;
+    text-align: center;
+    font-size: 35px;
+    position: relative;
+  }
+  .par,.par2,.para3,.para9{
+    text-align: center;
+    position: relative;top: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: auto;
+    font-size: 20px;
+  }
+  .lofi,.midfi,.hifi{
+    text-align: center;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  .header1,.header2{
+    font-family: fantasy;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+  }
+  .par,.par2,.para3,.para9{
+    text-align: center;
+    position: relative;top: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: auto;
+    font-size: 25px;
+  }
+  .lofi,.midfi,.hifi{
+    text-align: center;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+  }
 }
   
   body {
