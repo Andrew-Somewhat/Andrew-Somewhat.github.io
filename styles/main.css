@@ -7,9 +7,9 @@
   }
   .par,.par2,.para3,.para9{
     text-align: center;
-    position: relative;top: 100px;
+    position: relative;top: 50px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: auto;
+    padding: bottom 15px;
     font-size: 15px;
   }
   .lofi,.midfi,.hifi{
@@ -31,9 +31,9 @@
   }
   .par,.par2,.para3,.para9{
     text-align: center;
-    position: relative;top: 100px;
+    position: relative;top: 500px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: auto;
+    padding: bottom 15px;
     font-size: 20px;
   }
   .lofi,.midfi,.hifi{
@@ -56,9 +56,9 @@
   }
   .par,.par2,.para3,.para9{
     text-align: center;
-    position: relative;top: 100px;
+    position: relative;top: 500px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: auto;
+    padding: bottom 15px;
     font-size: 25px;
   }
   .lofi,.midfi,.hifi{
@@ -95,7 +95,7 @@
    text-align: center;
    position: relative;top: 100px;
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   padding: auto;
+   padding: bottom 15px;
    font-size: 20px;
  
 }
@@ -176,7 +176,8 @@
   font-size: 30px;
 }
 
-.picit {text-align: center;padding-top: 40px;}
+.picit {text-align: center;
+  position: relative;}
 
 
 .img {
