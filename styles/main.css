@@ -1,99 +1,133 @@
-@media only screen and (min-width: 320px) {
+/* Mobile Phone  */
+@media only screen and (max-width: 320px) {
   .header1,.header2{
     font-family: fantasy;
     text-align: center;
-    font-size: 30px;
-    position: relative;
+    font-size: 90%;
   }
   .par,.par2,.para3,.para9{
     text-align: center;
     position: static;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: bottom 15px;
-    font-size: 15px;
+    font-size:  90%;
   }
   .lofi,.midfi,.hifi{
     text-align: center;
-    font-size: 15px;
+    font-size:  90%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-top: 50px;
-    padding-right: 100px;
-    padding-bottom: 50px;
-    padding-left: 100px;
   }
   .yidfi {
-    font-size: 15px;
+    font-size:  90%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-top: 40px;
-    padding-right: 100px;
-    padding-bottom: 40px;
-    padding-left: 100px;
   }
+
+  .img{
+    border: rgb(31, 29, 29);
+    text-align: center;
+    width: auto;
+    height: auto;
+  }
+
+  .img2{
+    display: none;
+  }
+  .img3,.img7,.picit{
+    text-align: center;
+    width: auto;
+    height: auto;
 }
-@media only screen and (min-width: 768px) {
+}
+/* Tablet Portrait  */
+@media only screen and (max-width: 768px) {
   .header1,.header2{
     font-family: fantasy;
     text-align: center;
-    font-size: 35px;
+    font-size:  90%;
     position: relative;
   }
   .par,.par2,.para3,.para9{
     text-align: center;
     position: static;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: bottom 15px;
-    font-size: 20px;
+    padding: bottom auto;
+    font-size:  90%;
   }
   .lofi,.midfi,.hifi{
     text-align: center;
-    font-size: 20px;
+    font-size:  90%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-top: 50px;
-    padding-right: 100px;
-    padding-bottom: 50px;
-    padding-left: 100px;
+    padding-top: auto;
+    padding-right: auto;
+    padding-bottom: auto;
+    padding-left: auto;
   }
   .yidfi {
-    font-size: 20px;
+    font-size:  90%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-top: 40px;
-    padding-right: 100px;
-    padding-bottom: 40px;
-    padding-left: 100px;
+    padding-top: auto;
+    padding-right: auto;
+    padding-bottom: auto;
+    padding-left: auto;
   }
+  .img{
+    border: rgb(31, 29, 29);
+    text-align: center;
+    width: auto;
+    height: auto;
+  }
+
+  .img2,.img3,.img7,.picit{
+    text-align: center;
+    width: auto;
+    height: auto;
 }
 
-@media only screen and (min-width: 1200px){
+}
+/* Laptop */
+@media only screen and (max-width: 1200px){
   .header1,.header2{
     font-family: fantasy;
     text-align: center;
-    font-size: 40px;
+    font-size:  90%;
     position: relative;
   }
   .par,.par2,.para3,.para9{
     text-align: center;
     position: static;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: bottom 15px;
-    font-size: 25px;
+    padding: bottom auto;
+    font-size:  90%;
   }
   .lofi,.midfi,.hifi{
     text-align: center;
-    font-size: 25px;
+    font-size:  90%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-top: 50px;
-    padding-right: 100px;
-    padding-bottom: 50px;
-    padding-left: 100px;
+    padding-top: auto;
+    padding-right: auto;
+    padding-bottom: auto;
+    padding-left: auto;
   }
   .yidfi {
-    font-size: 25px;
+    font-size:  90%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-top: 40px;
-    padding-right: 100px;
-    padding-bottom: 40px;
-    padding-left: 100px;
+    padding-top: auto;
+    padding-right: auto;
+    padding-bottom: auto;
+    padding-left: auto;
   }
+  .img{
+    border: rgb(31, 29, 29);
+    text-align: center;
+    width: auto;
+    height: auto;
+  }
+
+  .img2,.img3,.img7,.picit{
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
 }
   
   body {
@@ -388,5 +422,3 @@ div.hidden:hover {
 div.marked, div.marked:hover {
   background: no-repeat center/60% url("images/mark.svg") deepskyblue;
 }
-
-
