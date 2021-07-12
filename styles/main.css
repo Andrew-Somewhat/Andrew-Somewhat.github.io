@@ -7,7 +7,7 @@
   }
   .par,.par2,.para3,.para9{
     text-align: center;
-    position: relative;top: 50px;
+    position: static;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: bottom 15px;
     font-size: 15px;
@@ -21,6 +21,14 @@
     padding-bottom: 50px;
     padding-left: 100px;
   }
+  .yidfi {
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 40px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+  }
 }
 @media only screen and (min-width: 768px) {
   .header1,.header2{
@@ -31,7 +39,7 @@
   }
   .par,.par2,.para3,.para9{
     text-align: center;
-    position: relative;top: 500px;
+    position: static;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: bottom 15px;
     font-size: 20px;
@@ -43,6 +51,14 @@
     padding-top: 50px;
     padding-right: 100px;
     padding-bottom: 50px;
+    padding-left: 100px;
+  }
+  .yidfi {
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 40px;
+    padding-right: 100px;
+    padding-bottom: 40px;
     padding-left: 100px;
   }
 }
@@ -56,7 +72,7 @@
   }
   .par,.par2,.para3,.para9{
     text-align: center;
-    position: relative;top: 500px;
+    position: static;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: bottom 15px;
     font-size: 25px;
@@ -68,6 +84,14 @@
     padding-top: 50px;
     padding-right: 100px;
     padding-bottom: 50px;
+    padding-left: 100px;
+  }
+  .yidfi {
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 40px;
+    padding-right: 100px;
+    padding-bottom: 40px;
     padding-left: 100px;
   }
 }
@@ -93,7 +117,7 @@
 
 .para3{
    text-align: center;
-   position: relative;top: 100px;
+   position: static;
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    padding: bottom 15px;
    font-size: 20px;
@@ -161,6 +185,14 @@
 
 .midfi {
   text-align: center;
+  font-size: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-top: 40px;
+  padding-right: 100px;
+  padding-bottom: 40px;
+  padding-left: 100px;
+}
+.yidfi {
   font-size: 20px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding-top: 40px;
